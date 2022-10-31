@@ -1,13 +1,135 @@
-body {
+*{
+  box-sizing: border-box;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+}
+body{
+  width: 100%;
+  height: 100vh;
+  padding: 20px 20px;
+  font-family: 'Inter', sans-serif;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.header{
+text-align: center;
+margin-bottom: 20px;
+
+}
+.slack{
+  display: none;
+}
+.header .input_container{
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  margin: 20px auto;
+  position: relative;
+ 
+}
+.share{
+  width: 30px;
+}
+.share_container{
+  display: flex;
+  justify-content: flex-end;
+}
+
+ .profile{
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+}
+
+.header .input{
+ display: none; 
+} 
+.info{
+  width: 80px;
+  height: 30px;
+  border-radius: 8px;
+  margin-right: 8px;
+  background-color: black;
+  color: white;
+  font-size: 12px;
+  position: relative;
+  padding-top: 7px;
+  /* opacity: 0; */
+}
+.info::before{
+  content: '';
+  position: absolute;
+  width: 0 ;
+  height: 0;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  border-left: 10px solid black;
+  right: -7px;
+  top: 5px;
+}
+.backdrop{
+  width: 100%;
+  background-color: rgba(52, 64, 84, 0.75);
+  height: 100%;
+  position: absolute;
+left: 50%;
+top: 0;
+border-radius: 50%;
+transform: translateX(-50%);
+opacity: 0;
+}
+.backdrop:hover{
+  opacity: 1;
+}
+.upload_image{
+margin-top: 40px;
+
+} 
+.link_buttons{
+  width: 100%;
+  height:50px;
+  border: none;
+  margin-top: 20px;
+  border-radius: 5px;
+  background-color: rgba(208, 213, 221, 1);
+}
+.link_buttons a{
+  text-decoration: none;
+  color: rgba(16, 24, 40, 1);
+  font-size: 14px;
+}
+.link_buttons a:hover{
+  text-decoration: underline;
+}
+.icons{
+  text-align: center;
+  margin-top: 30px;
+}
+.slack_icon{
+  margin-right: 10px;
+}
+.footer{
+  border-top: 1px solid #EAECF0;
+  margin-top: 20px;
+  padding-top: 20px;
+}
+.footer img{
+  width: 90px;
+  margin: 10px 0;
+}
+.footer p{
+  color: rgba(102, 112, 133, 1);
+  font-size: 14px;
+}
+@media (min-width:768px) {
+  body{
+    padding: 30px 80px;
+  }
+  .footer{
+display: flex;
+justify-content: space-between;
+  }
+  .footer img{
+ 
+    margin: 0;
+  }
 }
