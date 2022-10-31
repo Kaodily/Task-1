@@ -22,7 +22,7 @@ margin-bottom: 20px;
   width: 90px;
   height: 90px;
   border-radius: 50%;
-  margin: 20px auto;
+  margin: 30px auto;
   position: relative;
  
 }
@@ -38,6 +38,7 @@ margin-bottom: 20px;
   width: 90px;
   height: 90px;
   border-radius: 50%;
+  fill: #fff;
 }
 
 .header .input{
@@ -80,7 +81,7 @@ opacity: 0;
   opacity: 1;
 }
 .upload_image{
-margin-top: 40px;
+margin-top: 55px;
 
 } 
 .link_buttons{
@@ -152,4 +153,14 @@ justify-content: space-between;
   height: 110px;
 
 }
+.upload_image{
+  margin-top: 65px;
+  
+  } 
+  .link_buttons{
+    height:60px;
+   
+  
+  
+  }
 }
