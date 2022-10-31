@@ -1,4 +1,4 @@
-export default function Header({ width }) {
+export default function Header({width,isOpen,handleClick}) {
   const share =
     width >= 0 && width <= 768
       ? "./assets/share-mobile.png"
@@ -6,8 +6,12 @@ export default function Header({ width }) {
   return (
     <div className="header">
       <div className="share_container">
+        {isOpen && 
         <div className="info">Share link</div>
+        }
+        <div onClick={handleClick}>
         <img className="share" src={share} alt="share" />
+        </div>
       </div>
       <div className="input_container">
         <img

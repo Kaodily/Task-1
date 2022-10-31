@@ -15,29 +15,33 @@ export const datas = [
     {
         id:'books',
         name: 'Zuri Books',
-        link:'https://books.zuri.team/'
+        link: 'https://books.zuri.team/',
+        text:'Get books to learn design and coding'
 
     
     },
     {
         id:'book_python',
         name: 'Python Books',
-        link:'https://books.zuri.team/python-for-beginners?ref_id=%3Cyourslackname%3E'
-
-    
+        link:'https://books.zuri.team/python-for-beginners?ref_id=%3CIsizoh Chika%3E',
+        text:'Get 20% off when you buy with my code'
+ 
     },
 
     {
         id:'pitch',
         name: 'Background Check for Coders',
-        link:'https://background.zuri.team/'
+        link:'https://background.zuri.team/',
+        text:'Do background checks for coder at 20% off'
 
     
     },
     {
         id:'book_design',
         name: 'Design Books',
-        link:'https://books.zuri.team/design-rules'
+        link: 'https://books.zuri.team/design-rules',
+        text:'Get books about design for free'
+        
 
     
     }

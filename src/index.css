@@ -91,11 +91,15 @@ margin-top: 40px;
   margin-top: 20px;
   border-radius: 5px;
   background-color: rgba(208, 213, 221, 1);
+  color: rgba(16, 24, 40, 1);
+
 }
 .link_buttons a{
   text-decoration: none;
   color: rgba(16, 24, 40, 1);
   font-size: 14px;
+  margin-bottom: 2px;
+  font-weight: 600;
 }
 .link_buttons a:hover{
   text-decoration: underline;
@@ -123,6 +127,11 @@ margin-top: 40px;
 @media (min-width:768px) {
   body{
     padding: 30px 80px;
+  }
+  .share_container{
+    display: flex;
+    justify-content: center;
+    margin-left: 30rem;
   }
   .footer{
 display: flex;
