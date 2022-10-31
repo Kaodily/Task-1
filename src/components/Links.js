@@ -5,7 +5,7 @@ export default function Links() {
           {datas.map((data,index) => {
               return (
                   <div key={index}>
-                      <a href={data.link} id={data.id} className='link_buttons' target='_blank' rel="noopener noreferrer" style={!data.text ? { paddingTop: '25px' } :{paddingTop:'15px'} }>{data.name} <br />
+                      <a href={data.link} id={data.id} className='link_buttons' target='_blank' rel="noopener noreferrer" style={!data.text ? { paddingTop: '23px' } :{paddingTop:'15px'} }>{data.name} <br />
                       <sub>{ data.text}</sub>
                       </a> 
                   </div>
