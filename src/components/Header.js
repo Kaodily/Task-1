@@ -19,7 +19,7 @@ export default function Header({width,isOpen,handleClick}) {
         <img
           src={"./assets/profile.jpg"}
           className="profile"
-          id="profile_img"
+          id="profile__img"
           alt="profile"
         />
         <input

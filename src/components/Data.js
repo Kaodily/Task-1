@@ -1,12 +1,12 @@
 export const datas = [
     {
-        id:'twitter_link',
+        id:'twitter__link',
         name: 'Twitter Link',
         link:'https://twitter.com/Ka_odily'
     
     },
     {
-        id:'btn_zuri',
+        id:'btn__zuri',
         name: 'Zuri Team',
         link:'https://training.zuri.team/'
 
@@ -21,7 +21,7 @@ export const datas = [
     
     },
     {
-        id:'book_python',
+        id:'book__python',
         name: 'Python Books',
         link:'https://books.zuri.team/python-for-beginners?ref_id=%3CIsizoh Chika%3E',
         text:'Get 20% off when you buy with my code'
@@ -37,7 +37,7 @@ export const datas = [
     
     },
     {
-        id:'book_design',
+        id:'book__design',
         name: 'Design Books',
         link: 'https://books.zuri.team/design-rules',
         text:'Get books about design for free'

@@ -27,7 +27,7 @@ margin-bottom: 20px;
  
 }
 .share{
-  width: 30px;
+  width: 35px;
 }
 .share_container{
   display: flex;
@@ -136,8 +136,10 @@ border: 1px solid #98A2B3;
   body{
     padding: 30px 80px;
   }
+  .share{
+    width: 45px;
+  }
   .share_container{
-    display: flex;
     justify-content: center;
     margin-left: 30rem;
   }
