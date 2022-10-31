@@ -1,8 +1,10 @@
 export default function Header({width,isOpen,handleClick}) {
-  const share =
-    width >= 0 && width <= 768
+  const share = width >= 0 && width <= 768
       ? "./assets/share-mobile.png"
       : "./assets/share-desktop.png";
+  // const handleChange = (e) => {
+  //   console.log(e.target.value)
+  // }
   return (
     <div className="header">
       <div className="share_container">
@@ -21,6 +23,7 @@ export default function Header({width,isOpen,handleClick}) {
           alt="profile"
         />
         <input
+          // onChange={handleChange}
           type="file"
           id="image"
           accept="image/*"

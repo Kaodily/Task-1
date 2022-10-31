@@ -5,17 +5,21 @@ import Header from './components/Header';
 import Links from './components/Links';
 
 function App() {
+  
   const [width, setWidth] = useState('')
-  const [isOpen,setIsOpen] = useState(false)
+  const [isOpen, setIsOpen] = useState(false)
+  
   useEffect(() => {
     window.addEventListener('resize', getWidth)
     return (() => {
       window.removeEventListener('resize', getWidth)
     })
   }, [width])
+
   function getWidth() {
     return  setWidth(window.innerWidth)
   }
+
   const handleClick = () => {
     setIsOpen(prev => !prev)
   }
