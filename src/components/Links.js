@@ -1,7 +1,7 @@
 import { datas } from './Data'
 export default function Links() {
   return (
-      <div>
+      <div >
           {datas.map((data,index) => {
               return (
                   <div key={index}>

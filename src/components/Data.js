@@ -32,7 +32,7 @@ export const datas = [
         id:'pitch',
         name: 'Background Check for Coders',
         link:'https://background.zuri.team/',
-        text:'Do background checks for coder at 20% off'
+        text:'Do background checks for coders at 50% off'
 
     
     },
