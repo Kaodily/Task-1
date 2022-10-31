@@ -105,11 +105,10 @@ margin-top: 55px;
   font-weight: normal;
 }
 .link_buttons:hover{
- text-decoration: underline;
+  background-color: rgba(152, 162, 179, 1);
+border: 1px solid #98A2B3;
 } 
-.link_buttons sub:hover{
-  text-decoration: none;
-}
+
 
 .icons{
   text-align: center;
