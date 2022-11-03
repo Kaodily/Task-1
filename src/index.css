@@ -145,13 +145,11 @@ border: 1px solid #98A2B3;
   }
   .footer{
   display: flex;
-
   height: 50px;
   justify-content: space-between;
-align-items: center;
+  align-items: center;
   }
   .footer img{
- 
     margin: 0;
   }
   .header .input_container{

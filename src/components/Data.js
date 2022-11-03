@@ -41,8 +41,12 @@ export const datas = [
         name: 'Design Books',
         link: 'https://books.zuri.team/design-rules',
         text:'Get books about design for free'
-        
-
+    
+    },
+    {
+        id:'contact',
+        name: 'Contact',
+        link: '/contact',
     
     }
 ]
