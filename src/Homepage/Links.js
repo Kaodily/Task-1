@@ -10,6 +10,8 @@ export default function Links({navigateHandleClick}) {
               href={data.link}
               id={data.id}
               className="link_buttons"
+              target='_blank'
+              rel="noreferrer"
               style={
                 !data.text ? { paddingTop: "23px" } : { paddingTop: "13px" }
               }
@@ -27,7 +29,7 @@ export default function Links({navigateHandleClick}) {
               style={
             { paddingTop: "23px" }
               }>
-        Contact
+        Contact Me
       </Link>
      </div>
  

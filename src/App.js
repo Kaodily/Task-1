@@ -24,7 +24,6 @@ function App() {
 
   const handleChange = (e) => {
     const { name, value, type, checked } = e.target
-    console.log(value)
     setFormData(prev => {
       return {
         ...prev,
