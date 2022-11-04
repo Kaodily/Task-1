@@ -43,10 +43,5 @@ export const datas = [
         text:'Get books about design for free'
     
     },
-    {
-        id:'contact',
-        name: 'Contact Me',
-        link: '/contact',
-    
-    }
+ 
 ]

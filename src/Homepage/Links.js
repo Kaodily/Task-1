@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import { datas } from "../components/Data";
 export default function Links({navigateHandleClick}) {
   return (
@@ -19,6 +20,16 @@ export default function Links({navigateHandleClick}) {
           </div>
         );
       })}
+      <div>
+      <Link to={'/contact'}
+              id='contact'
+              className="link_buttons"
+              style={
+            { paddingTop: "23px" }
+              }>
+        Contact
+      </Link>
+     </div>
  
   
       <div className="icons">
