@@ -132,9 +132,61 @@ border: 1px solid #98A2B3;
   color: rgba(102, 112, 133, 1);
   font-size: 14px;
 }
+
+/* contact me styles */
+.contact{
+  padding: 35px 0;
+  color: #475467;
+}
+.contact p{
+  padding: 15px 0;
+  font-size: 15px;
+}
+.contact label{
+  font-size: 14px;
+  font-weight: 700;
+  margin-left: 5px;
+  padding-top: 50px;
+}
+
+.inputs{
+  width: 100%;
+  height: 40px;
+  margin-bottom: 5px;
+  margin-top: 5px;
+  padding-left: 7px;
+}
+.forms_input{
+ margin-bottom: 10px;
+}
+.inputs::placeholder{
+  color:  rgba(102, 112, 133, 1);
+  font-size: 12px;
+}
+.contact textarea{
+  width: 100%;
+  height: 100px;
+  padding: 5px 8px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+.contact button{
+  width: 100%;
+  height: 40px;
+  margin-top: 20px;
+  background-color: #1570EF;
+  margin-bottom: 50px;
+  border: none;
+  border-radius: 6px;
+  color: white;
+}
+.contact small{
+  color: red;
+  margin-bottom: 20px;
+}
 @media (min-width:768px) {
   body{
-    padding: 30px 80px;
+    padding: 30px 10px;
   }
   .share{
     width: 45px;
@@ -168,7 +220,15 @@ border: 1px solid #98A2B3;
   .link_buttons{
     height:60px;
    
-  
-  
+  }
+  .contact{
+padding: 50px 200px;
+  }
+  .first_last{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .forms_input:nth-child(1){
+    margin-right: 20px;
   }
 }

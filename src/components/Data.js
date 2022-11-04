@@ -45,7 +45,7 @@ export const datas = [
     },
     {
         id:'contact',
-        name: 'Contact',
+        name: 'Contact Me',
         link: '/contact',
     
     }
