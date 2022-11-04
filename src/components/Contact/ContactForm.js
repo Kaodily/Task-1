@@ -26,7 +26,7 @@ const ContactForm = ({
               id="first_name"
               value={data.firstName}
               onChange={handleChange}
-            />{" "}
+            />
             <br />
             {firstName && <small>Required</small>}
           </div>
@@ -70,7 +70,7 @@ const ContactForm = ({
             placeholder="Send me a message and I'll reply you as soon as possible..."
             onChange={handleChange}
             value={data.message}
-          ></textarea>{" "}
+          ></textarea>
           <br />
           {message && <small>Please enter a message</small>} <br />
         </div>
