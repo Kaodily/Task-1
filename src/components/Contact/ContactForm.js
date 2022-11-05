@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 const ContactForm = ({
   handleChange,
   data,
@@ -51,7 +53,7 @@ const ContactForm = ({
           <input
             className="inputs"
             placeholder="yourname@gmail.com"
-            type="text"
+            type="email"
             name="email"
             id="email"
             onChange={handleChange}
@@ -84,8 +86,11 @@ const ContactForm = ({
         <label htmlFor="checkbox">
           You agree to providing your data to Ka_odily who may contact you.
         </label>
-        <br />
+              <br />
+              <Link>
+              
         <button id="btn__submit">Send message</button>
+              </Link>
       </form>
     </div>
   );
