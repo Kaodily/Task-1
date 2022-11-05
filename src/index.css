@@ -187,10 +187,7 @@ border: 1px solid #98A2B3;
 .contact button:hover{
   background-color: rgba(23, 92, 211, 1);
 }
-.contact button:disabled{
-  background-color:rgba(178, 221, 255, 1);
 
-}
 
 @media (min-width:768px) {
   body{
