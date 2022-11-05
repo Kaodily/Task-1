@@ -87,11 +87,8 @@ const ContactForm = ({
         <label htmlFor="checkbox">
           You agree to providing your data to {name} who may contact you.
         </label>
-              <br />
-              <Link>
-              
+              <br />              
         <button id="btn__submit">Send message</button>
-              </Link>
       </form>
     </div>
   );
