@@ -10,6 +10,7 @@ const ContactForm = ({
   handleSubmit,
 }) => {
   const error = message ? { border: "2px solid red" } : null;
+  const name = 'Ka_odily'
 
   return (
     <div className="contact">
@@ -84,7 +85,7 @@ const ContactForm = ({
           onChange={handleChange}
         />
         <label htmlFor="checkbox">
-          You agree to providing your data to Ka_odily who may contact you.
+          You agree to providing your data to {name} who may contact you.
         </label>
               <br />
               <Link>
